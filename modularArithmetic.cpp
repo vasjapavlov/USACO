@@ -23,14 +23,14 @@ ll exp(ll x, ll n, ll m) {
 
 
 int main() {
-	int t;
+  int t;
   cout << "Enter number of tests: ";
-	cin >> t;
-	for (int i = 0; i < t; i++) {
-		int a, b;
+  cin >> t;
+  for (int i = 0; i < t; i++) {
+	  int a, b;
     cout << "Enter a and b to calculate a^b mod 1e9 + 7: ";
-		cin >> a >> b;
-		cout << exp(a, b, 1e9 + 7) << "\n";
+	  cin >> a >> b;
+	  cout << exp(a, b, 1e9 + 7) << "\n";
 	}
   return 0;
 }
